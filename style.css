@@ -1,14 +1,12 @@
-.blue-button {
-    background-color: blue;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+#mon-bouton {
+    background-color: blue; /* couleur de fond initiale */
+    color: white; /* couleur du texte */
+    border: none; /* pas de bordure */
+    padding: 10px 20px; /* espacement intérieur */
+    border-radius: 5px; /* arrondir les coins */
   }
   
-  .red-button {
-    background-color: red;
+  #mon-bouton.active {
+    background-color: red; /* couleur de fond lorsqu'actif */
   }
   
