@@ -1,3 +1,8 @@
+var button = document.querySelector('button');
+
+button.addEventListener('click', function() {
+  button.classList.toggle('active');
+});
 // Ajouter un événement "click" au bouton
 let bouton = document.getElementById("mon-bouton");
 bouton.addEventListener("click", function() {
